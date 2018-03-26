@@ -1,0 +1,9 @@
+C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\bin\Debug\ImpressaoCCME.exe.config
+C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\bin\Debug\ImpressaoCCME.exe
+C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\bin\Debug\ImpressaoCCME.pdb
+C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\obj\Debug\ImpressaoCCME.csprojResolveAssemblyReference.cache
+C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\obj\Debug\ImpressaoCCME.csproj.CoreCompileInputs.cache
+C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\obj\Debug\ImpressaoCCME.exe
+C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\obj\Debug\ImpressaoCCME.pdb
+C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\bin\Debug\ImpressaoCCME.exe.CodeAnalysisLog.xml
+C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\bin\Debug\ImpressaoCCME.exe.lastcodeanalysissucceeded

@@ -1,0 +1,8 @@
+C:\Users\jrodrig9\source\repos\WindowsService\ConsoleApp2\obj\Debug\ConsoleApp2.csproj.CoreCompileInputs.cache
+C:\Users\jrodrig9\source\repos\WindowsService\ConsoleApp2\bin\Debug\ConsoleApp2.exe.config
+C:\Users\jrodrig9\source\repos\WindowsService\ConsoleApp2\bin\Debug\ConsoleApp2.exe
+C:\Users\jrodrig9\source\repos\WindowsService\ConsoleApp2\bin\Debug\ConsoleApp2.pdb
+C:\Users\jrodrig9\source\repos\WindowsService\ConsoleApp2\obj\Debug\ConsoleApp2.exe
+C:\Users\jrodrig9\source\repos\WindowsService\ConsoleApp2\obj\Debug\ConsoleApp2.pdb
+C:\Users\jrodrig9\source\repos\WindowsService\ConsoleApp2\bin\Debug\ConsoleApp2.exe.CodeAnalysisLog.xml
+C:\Users\jrodrig9\source\repos\WindowsService\ConsoleApp2\bin\Debug\ConsoleApp2.exe.lastcodeanalysissucceeded

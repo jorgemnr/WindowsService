@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="c:\program files (x86)\microsoft visual studio\2017\community\team tools\static analysis tools\fxcop\Xml\CodeAnalysisReport.xsl"?>
+<FxCopReport Version="15.0">
+ <Targets>
+  <Target Name="C:\Users\jrodrig9\source\repos\WindowsService\ImpressaoCCME\bin\Debug\ImpressaoCCME.exe">
+   <Modules>
+    <Module Name="impressaoccme.exe">
+     <Namespaces>
+      <Namespace Name="ImpressaoCCME">
+       <Types>
+        <Type Name="Processo" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-03-26 20:19:31Z" FixCategory="NonBreaking">
+           <Issue Name="NonBreaking" Certainty="95" Level="CriticalError">Implemente IDisposable em 'Processo' porque cria membros dos seguintes tipos IDisposable: 'Process'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+        <Type Name="ProcessoCCME" Kind="Class" Accessibility="Assembly" ExternallyVisible="False">
+         <Messages>
+          <Message TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001" Status="Active" Created="2018-03-26 20:19:31Z" FixCategory="NonBreaking">
+           <Issue Name="NonBreaking" Certainty="95" Level="CriticalError">Implemente IDisposable em 'ProcessoCCME' porque cria membros dos seguintes tipos IDisposable: 'Process'.</Issue>
+          </Message>
+         </Messages>
+        </Type>
+       </Types>
+      </Namespace>
+     </Namespaces>
+    </Module>
+   </Modules>
+  </Target>
+ </Targets>
+ <Rules>
+  <Rule TypeName="TypesThatOwnDisposableFieldsShouldBeDisposable" Category="Microsoft.Design" CheckId="CA1001">
+   <Name>Tipos que possuem campos descartáveis devem ser descartáveis</Name>
+   <Description>Os tipos que declaram membros descartáveis também devem implementar IDisposable. Se o tipo não tiver recursos próprios não gerenciados, não implemente um finalizador nele.</Description>
+   <Resolution Name="NonBreaking">Implemente IDisposable em {0} porque cria membros dos seguintes tipos IDisposable: {1}.</Resolution>
+   <Owner />
+   <Url>http://msdn.microsoft.com/library/ms182172.aspx</Url>
+   <Email>[none]</Email>
+   <MessageLevel Certainty="95">CriticalError</MessageLevel>
+   <File Name="designrules.dll" Version="15.0.0.0" />
+  </Rule>
+ </Rules>
+ <Localized>
+  <String Key="Category">Categoria</String>
+  <String Key="Certainty">Certeza</String>
+  <String Key="CollapseAll">Recolher Tudo</String>
+  <String Key="CheckId">Verificar ID</String>
+  <String Key="Error">Erro</String>
+  <String Key="Errors">erro(s)</String>
+  <String Key="ExpandAll">Expandir Tudo</String>
+  <String Key="Help">Ajuda</String>
+  <String Key="Line">Linha</String>
+  <String Key="Messages">mensagem(ns)</String>
+  <String Key="LocationNotStoredInPdb">[Local não armazenado em Pdb]</String>
+  <String Key="Project">Projeto</String>
+  <String Key="Resolution">Resolução</String>
+  <String Key="Rule">Regra</String>
+  <String Key="RuleFile">Arquivo de Regra</String>
+  <String Key="RuleDescription">Descrição da Regra</String>
+  <String Key="Source">Origem</String>
+  <String Key="Status">Status</String>
+  <String Key="Target">Destino</String>
+  <String Key="Warning">Aviso</String>
+  <String Key="Warnings">aviso(s)</String>
+  <String Key="ReportTitle">Relatório de Análise de Código</String>
+ </Localized>
+</FxCopReport>
